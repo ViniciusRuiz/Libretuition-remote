@@ -17,7 +17,7 @@ sudo ./install.sh
 
 ```
 
-# Usage
+# Usage - Download, Compress, Upload
 ```
 sudo ./liberate.sh NewName.mp4 mypassword https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_640_3MG.mp4
 ```
@@ -29,4 +29,10 @@ Admin code will be **saved** to `NAME.mp4.log`
 
 Save the result **CODE** and share url  
 `https://gofile.io/d/CODE`
+
+# Usage - Download, Compress
+```
+sudo ./downpress.sh NewName.mp4 mypassword https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_640_3MG.mp4
+```
+Compressed file will be like o.NewName.mp4  
 
