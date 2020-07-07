@@ -97,7 +97,7 @@
             "VideoProfile": "high",
             "VideoQSVAsyncDepth": 4,
             "VideoQSVDecode": false,
-            "VideoQualitySlider": 36.0,
+            "VideoQualitySlider": 30.0,
             "VideoQualityType": 2,
             "VideoScaler": "swscale",
             "VideoTune": "",
