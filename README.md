@@ -2,8 +2,8 @@
 Libretuition scripts to run on pre-emptive remote VMs (Debian based)  
 
 This script will **download** streams, **compress** them and **upload** them to anonymous file hoster **gofile.io**  
-Prefered resolution ratio of input videos : **360p**  (Compresses to ~300 MB for 4 hours)  
-If original video is not crystal clear, use ratio : **540p**  (Compresses to ~450 MB for 4 hours)  
+Prefered resolution ratio of input videos : **360p**  (Compresses to ~400 MB for 4 hours)  
+If original video is not crystal clear, use ratio : **540p**  (Compresses to ~500 MB for 4 hours)  
 
 
 # Install  
@@ -36,3 +36,7 @@ sudo ./downpress.sh NewName.mp4 https://file-examples.com/wp-content/uploads/201
 ```
 Compressed file will be like o.NewName.mp4  
 
+# Usage - Download, Compress, Split into 90 MB segments  
+```
+sudo ./downpressplit.sh NewName.mp4 https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_640_3MG.mp4
+```
