@@ -10,7 +10,6 @@ sudo apt -y install git
 git clone https://github.com/HasinduLanka/Libretuition-remote.git
 cd Libretuition-remote
 sudo chmod +x *.sh
-sudo ./install.sh
 
 ```
 
@@ -21,12 +20,12 @@ sudo ./install.sh $USER
 ```
 
 ## Install remote desktop
-Install with Lightweight XFCE4
+Install with Lightweight desktop environment XFCE4
 ```
 sudo ./google-remote-desktop.sh
 
 ```
-or Install with modern Cinnamon
+or Install with modern desktop environment Cinnamon
 ```
 sudo ./google-remote-desktop-cinamon.sh
 
@@ -49,8 +48,8 @@ Replace the URL with a media stream
 | split  | ./split.sh filename.mp4   | Split into 90 MB segments |
 | encode  | ./encode-mp4.sh filename.mp4   | Re-encode media into mp4 or webm |
 
-Outputs will be like `o.filename.mp4` for input file name` filename.mp4`
-There are combined operations like` downpressplit.sh` 
+Output will be like `o.filename.mp4` for input file name` filename.mp4`
+There are combined scripts like` downpressplit.sh` 
 These default **scripts will delete the source file ** you pass as a parameter. 
 Using scripts ending with `-keep.sh ` will not delete the source file. Example : `downpress-keep.sh`
 
@@ -84,3 +83,5 @@ Compressed file will be like o.NewName.mp4
 ```
 sudo ./downpressplit.sh NewName.mp4 https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_640_3MG.mp4
 ```
+
+### There are more scripts and combinations. Take a look 😁
