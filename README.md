@@ -1,9 +1,6 @@
 # Libretuition-remote  
 Libretuition scripts to run on pre-emptive/persistent remote VMs (Debian based)  
 
-This script will **download** streams, **compress** them and **upload** them to anonymous file hoster **gofile.io**  
-Prefered resolution ratio of input videos : **360p**  (Compresses to ~400 MB for 4 hours)  
-If original video is not crystal clear, use ratio : **540p**  (Compresses to ~500 MB for 4 hours)  
 
 
 # Download and Setup
@@ -64,6 +61,11 @@ Using scripts ending with `-keep.sh ` will not delete the source file. Example :
 ```
 sudo ./liberate.sh NewName.mp4 mypassword https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_640_3MG.mp4
 ```
+
+This script will **download** streams, **compress** them and **upload** them to anonymous file hoster **gofile.io**  
+Prefered resolution ratio of input videos : **360p**  (Compresses to ~400 MB for 4 hours)  
+If original video is not crystal clear, use ratio : **540p**  (Compresses to ~500 MB for 4 hours)  
+
 
 Replace `mypassword` with a password for GoFiles  
 Replace the URL with target stream **compatible with WGET**  
