@@ -5,3 +5,5 @@ outf=o.$1
 HandBrakeCLI --preset-import-file handbrake.preset.json --preset LibreTuition -i $inf -o $outf
 
 rm $inf
+MP4Box -splits 92160 $outf
+rm $outf
